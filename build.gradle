@@ -1,0 +1,26 @@
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:1.2.3'
+        classpath 'com.neenbedankt.gradle.plugins:android-apt:1.4'
+        classpath 'com.novoda:bintray-release:0.2.10'
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+    }
+}
+
+ext {
+    userOrg = 'attwellbrian'
+    groupId = 'com.brianattwell'
+    uploadName = 'Android-StaticToStringUtil'
+    description = 'Demonstration of annotation processing inside Gradle project'
+    publishVersion = '0.3.5'
+    website = 'http://brianattwell.com'
+    licences = ['MIT']
+}

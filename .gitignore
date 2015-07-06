@@ -1,0 +1,11 @@
+# Gradle
+.gradle
+local.properties
+build
+
+# Android Studio
+.idea
+*.iml
+
+# Mac OSX
+.DS_Store
