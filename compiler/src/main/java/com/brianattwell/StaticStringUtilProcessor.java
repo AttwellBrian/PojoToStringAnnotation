@@ -23,7 +23,6 @@ import static javax.lang.model.SourceVersion.latestSupported;
 import static javax.tools.Diagnostic.Kind.*;
 
 @AutoService(Processor.class)
-@SupportedSourceVersion(SourceVersion.RELEASE_7)            
 public class StaticStringUtilProcessor extends AbstractProcessor {
 
     private static final String ANNOTATION = "@" + StaticStringUtil.class.getSimpleName();
